@@ -1,0 +1,151 @@
+:root {
+    --primary-color: #fcd8ad;
+    --zinc: #71717a;
+    --light-zinc: #e4e4e7;
+  }
+  
+  body {
+    font-family: "Open Sans", sans-serif;
+    margin: 0px;
+  }
+  
+  hr {
+    margin: 2rem 0rem;
+  }
+  
+  /** container **/
+  
+  .container {
+    padding: 0rem 1rem;
+  }
+  
+  .container-center {
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  
+  
+  /** links **/
+  
+  .link {
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+  }
+  
+  .primary-link {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+    align-items: center;
+  }
+  
+  .secondary-link {
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+  }
+  
+  /** lists **/
+  
+  .list-non-bullet {
+    list-style: none;
+    padding: 0 10px;
+  }
+  
+  .list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+  }
+  
+  /** navigation **/
+  
+  .navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+  }
+  
+  .navigation .nav-brand {
+    font-weight: bold;
+  }
+  
+  .navigation .nav-pills {
+    text-align: right;
+  }
+  
+  .navigation .link {
+    color: white;
+  }
+  
+  .navigation .link-active {
+    font-weight: bold;
+  }
+  
+  /** header **/
+  
+  .frontend {
+    padding: 2rem;
+    text-align: center;
+    padding-top: 5rem;
+  }
+  
+  .frontend .frontend-img {
+    width: 50%;
+    max-width: 500px;
+    display: block;
+    margin: auto;
+  }
+  
+  .frontend .frontend-heading {
+    padding-top: 1rem;
+    color: var(--zinc);
+  }
+  
+  .frontend .frontend-heading .heading-inverted {
+    color: var(--primary-color);
+  }
+  
+  /** sections **/
+  
+  .section {
+    padding: 2rem;
+  }
+
+  .blog-area{
+    max-width: 600px;
+    margin: auto;
+    text-align: justify;
+  }
+  
+  
+  
+  .ow {
+    background-color: var(--light-zinc);
+  }
+  
+  /** footers **/
+  
+  footer {
+    background-color: var(--primary-color);
+    padding: 2rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+  }
+  
+  .footer .link {
+    color: white;
+  }
+  
+  .footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+  }
+  
+  .footer ul {
+    padding-inline-start: 0px;
+  }

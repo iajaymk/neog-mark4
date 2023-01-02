@@ -1,2 +1,7 @@
-# neog-mark4
-Portfolio Website for neog
+# Portfolio Website
+Portfolio Website for neog camp level zero task.
+
+
+## Technologies Used
+- HTML
+- CSS
